@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import config from './config/environment';
+import adminRouter from 'ember-admin/router';
 
 const Router = Ember.Router.extend({
   location: config.locationType,
@@ -8,6 +9,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
+  adminRouter(this);
   this.route('contact');
   this.route('yogurt');
   this.route('gelato');

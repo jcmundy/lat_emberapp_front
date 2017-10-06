@@ -1,0 +1,7 @@
+{
+  "name": "latteria-front",
+  "dependencies": {
+    "fetch": "^2.0.3",
+    "es6-promise": "^4.0.5"
+  }
+}
