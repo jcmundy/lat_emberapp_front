@@ -19,6 +19,7 @@
     "broccoli-asset-rev": "^2.4.5",
     "ember-admin": "git+https://github.com/FocusVision/ember-admin.git",
     "ember-ajax": "^3.0.0",
+    "ember-async-button": "^1.0.2",
     "ember-cli": "~2.15.1",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.3.0",
@@ -37,11 +38,10 @@
     "ember-cli-string-utils": "^1.1.0",
     "ember-cli-test-info": "^1.0.0",
     "ember-cli-uglify": "^1.2.0",
-    "ember-crumbly": "^1.0.7",
     "ember-data": "~2.15.0",
+    "ember-data-has-many-query": "^0.2.0",
     "ember-export-application-global": "^2.0.0",
     "ember-inflector": "^1.12.1",
-    "ember-async-button": "^1.0.2",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.15.0",
@@ -50,6 +50,9 @@
     "loader.js": "^4.2.3",
     "lodash": "^3.10.1",
     "silent-error": "^1.1.0"
+  },
+  "dependencies": {
+    "ember-crumbly": "^1.0.7"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"

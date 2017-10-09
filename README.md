@@ -3,6 +3,30 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+```
+Notes
+
+in routes.rb add
+   namespace :admin do
+      resources :invitations
+   end
+
+install ember-crumbly
+
+touch app/controllers/admin/invitations_controller.rb
+	- copy contents of controllers/invitations_controller.rb change 1st line to: 
+	class Admin::InvitationsController < ApplicationController
+
+Requires gem 'jsonapi-resources'
+Requires in package.json     "ember-data-has-many-query": "^0.2.0",
+
+Remember to add 
+import AdminModelMixin from 'ember-admin/mixins/admin-model-mixin';
+and
+export default DS.Model.extend(AdminModelMixin, {
+to the models.
+```
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
