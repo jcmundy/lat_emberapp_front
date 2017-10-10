@@ -3,5 +3,8 @@
   "dependencies": {
     "fetch": "^2.0.3",
     "es6-promise": "^4.0.5"
+  },
+  "devDependencies": {
+    "ember": "2.12.1"
   }
 }
