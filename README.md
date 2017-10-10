@@ -34,6 +34,8 @@ const { String: { pluralize, underscore } } = Ember;
 export default JSONAPIAdapter.extend(AdminAdapterMixin, {
 
 to the application.js
+
+Add table names to controller permitted fields, not just tablename_id (e.g. :tablename_id, :tablename, :tablenames)
 ```
 
 ## Prerequisites
