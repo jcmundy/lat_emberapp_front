@@ -25,6 +25,15 @@ import AdminModelMixin from 'ember-admin/mixins/admin-model-mixin';
 and
 export default DS.Model.extend(AdminModelMixin, {
 to the models.
+
+Remember to add
+import AdminAdapterMixin from 'ember-admin/mixins/admin-adapter-mixin';
+
+const { String: { pluralize, underscore } } = Ember;
+
+export default JSONAPIAdapter.extend(AdminAdapterMixin, {
+
+to the application.js
 ```
 
 ## Prerequisites
